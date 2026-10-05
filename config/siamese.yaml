@@ -1,0 +1,14 @@
+# Shared ResNet18 encoder trained with contrastive pairs.
+architecture: siamese_resnet18
+pretrained: false
+img_size: 224
+embedding_dim: 128
+margin: 1.0
+batch_size: 32
+epochs: 100  # máximo, con parada temprana en validación
+learning_rate: 0.0003
+seed: 42
+workers: 4
+early_stopping_patience: 15
+early_stopping_min_delta: 0.0001
+log_every_n_batches: 10

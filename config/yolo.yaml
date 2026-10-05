@@ -1,0 +1,10 @@
+# YOLOv8 image classification. This is not bounding-box detection.
+task: classify
+model: yolov8n-cls.pt
+pretrained: true
+img_size: 224
+batch: 32
+epochs: 100  # máximo; Ultralytics puede detenerse antes
+workers: 0
+seed: 42
+patience: 15

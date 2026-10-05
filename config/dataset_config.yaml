@@ -1,0 +1,12 @@
+seed: 42
+img_size: 224
+split_ratios: [0.8, 0.1, 0.1]
+classes:
+  sano: 0
+  defecto: 1
+usk_coffee:
+  sano: [premium] #, peaberry, longberry]
+  defecto: [defect]
+specific_defect:
+  sano: [Normales.jpg]
+  defecto: [BrocadoLeve.jpg, BrocadoSevero.jpg, CerezaSeca.jpg, Concha.jpg, DXHongo.jpg, Inmaduro.jpg, MarronAVinagre.jpg, Negros.jpg, Pergamino.jpg, PMordidoCortado.jpg]

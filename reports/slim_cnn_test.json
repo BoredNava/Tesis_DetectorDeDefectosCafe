@@ -1,0 +1,45 @@
+{
+  "accuracy": 0.8291666666666667,
+  "report": {
+    "sano": {
+      "precision": 0.8264462809917356,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8298755186721992,
+      "support": 120.0
+    },
+    "defecto": {
+      "precision": 0.8319327731092437,
+      "recall": 0.825,
+      "f1-score": 0.8284518828451883,
+      "support": 120.0
+    },
+    "accuracy": 0.8291666666666667,
+    "macro avg": {
+      "precision": 0.8291895270504896,
+      "recall": 0.8291666666666666,
+      "f1-score": 0.8291637007586938,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 0.8291895270504896,
+      "recall": 0.8291666666666667,
+      "f1-score": 0.8291637007586937,
+      "support": 240.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      100,
+      20
+    ],
+    [
+      21,
+      99
+    ]
+  ],
+  "classes": [
+    "sano",
+    "defecto"
+  ],
+  "n_test": 240
+}

@@ -1,0 +1,23 @@
+# YOLOv8 object detection on manually boxed multi-bean images.
+model: yolov8n.pt
+pretrained: true
+img_size: 640
+batch: 8
+epochs: 100
+patience: 15
+workers: 0
+seed: 42
+classes:
+  sano: 0
+  defecto: 1
+augmentation:
+  degrees: 8.0
+  translate: 0.05
+  scale: 0.20
+  fliplr: 0.5
+  flipud: 0.0
+  hsv_h: 0.01
+  hsv_s: 0.10
+  hsv_v: 0.15
+  mosaic: 0.5
+  mixup: 0.0

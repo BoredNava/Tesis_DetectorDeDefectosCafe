@@ -1,0 +1,13 @@
+# Compact classifier using depthwise-separable convolution blocks.
+architecture: slim_cnn
+channels: [24, 48, 96, 160]
+dropout: 0.25
+img_size: 224
+batch_size: 32
+epochs: 100  # máximo, con parada temprana en validación
+learning_rate: 0.001
+seed: 42
+workers: 4
+early_stopping_patience: 15
+early_stopping_min_delta: 0.0001
+log_every_n_batches: 10
